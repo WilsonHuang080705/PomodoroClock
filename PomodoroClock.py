@@ -1,13 +1,18 @@
 #Repo: https://github.com/WilsonHuang080705/PomodoroClock   
 #Developer: Matrix Huang
 import time 
+import sys
 import datetime
 import argparse
 import textwrap
 import random
+import signal
 
 #主要程序
 def main():
+    # 设置中断信号处理函数
+    signal.signal(signal.SIGINT, signal_handler)
+
     #休息时长，工作时长
     parser = argparse.ArgumentParser(
         description=textwrap.dedent("""\
@@ -71,6 +76,10 @@ def main():
             time.sleep(args.long_break * 60)
         else:
             print("继续下一个番茄钟。")
+
+def signal_handler(signal, frame):
+    print("\n收到中断信号, 程序将退出。")
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
