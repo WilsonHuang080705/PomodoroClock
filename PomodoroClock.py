@@ -1,4 +1,4 @@
-#Repo: https://github.com/WilsonHuang080705/PomodoroClock
+#Repo: https://github.com/WilsonHuang080705/PomodoroClock   
 #Developer: Matrix Huang
 import time 
 import datetime
@@ -28,23 +28,35 @@ def main():
     parser.add_argument("--break", "--short-break", type=int, default=5, help="短休息时长(分钟, 默认5分钟)")
     parser.add_argument("--lb", "--long-break", type=int, default=15, help="长休息时长(分钟, 默认15分钟)")
     parser.add_argument('-v', '--version',action='version',version='%(prog)s 1.0.0 Beta',help='显示程序版本信息')
-
+    
     #解析参数
     args = parser.parse_args()
-    
+
     # 初始化番茄钟轮数
     pomodoros_completed = 0
 
     while True:
         # 开始工作
-        print(f"开始工作，时长 {args.work} 分钟。")
+        print(f"开始工作，时长 {args.w} 分钟。")
         start_time = datetime.datetime.now()
-        while (datetime.datetime.now() - start_time).seconds < args.work * 60:
-            print(f"剩余时间: {args.work - (datetime.datetime.now() - start_time).seconds // 60} 分钟")
+        remaining_time = args.w * 60  # 将工作时长转换为秒
+
+        # 倒计时循环
+        while remaining_time > 0:
+            # 更新剩余时间
+            current_time = datetime.datetime.now()
+            elapsed_time = (current_time - start_time).total_seconds()
+            remaining_time -= elapsed_time
+
+            # 格式化剩余时间
+            minutes, seconds = divmod(remaining_time, 60)
+            print(f"剩余时间: {minutes} 分钟 {seconds} 秒", end='\r')  # 使用 end='\r' 来更新同一行
+
+            # 暂停一段时间，这里使用 1 秒作为示例
             time.sleep(1)
 
         # 工作完成，休息
-        print("工作完成了，休息一下吧！")
+        print("\n工作完成了, 休息一下吧！")
         time.sleep(args.short_break * 60)
 
         # 更新番茄钟轮数
