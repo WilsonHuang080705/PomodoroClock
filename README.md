@@ -40,7 +40,7 @@ Pomodoro Clock is a time management tool based on the Pomodoro Technique, develo
 
 ## Usage
 1. Clone or download this repository to your local machine.
-2. Run the `main.py` file with Python.
+2. Run the `PomodoroClock.py` file with Python.
 3. Customize the work duration, short break duration, and long break duration through command-line arguments.
 
 ## Command-line Arguments
