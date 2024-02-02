@@ -10,11 +10,11 @@ Pomodoro Clock 是一个基于番茄工作法的时间管理工具，由 Matrix 
 
 ## 命令行参数
 
--w, --work       Set the work duration in minutes (default: 25)
--s, --short-break  Set the short break duration in minutes (default: 5)
--l, --long-break  Set the long break duration in minutes after four Pomodoros (default: 15)
---help             Show this help message and exit.
---version          Show program's version number and exit.
+- -w, --work       Set the work duration in minutes (default: 25)
+- -s, --short-break  Set the short break duration in minutes (default: 5)
+- -l, --long-break  Set the long break duration in minutes after four Pomodoros (default: 15)
+- --help             Show this help message and exit.
+- --version          Show program's version number and exit.
 
 
 ## 特点
