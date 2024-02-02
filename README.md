@@ -45,11 +45,11 @@ Pomodoro Clock is a time management tool based on the Pomodoro Technique, develo
 
 ## Command-line Arguments
 
--w, --work       Set the work duration in minutes (default: 25)
--s, --short-break  Set the short break duration in minutes (default: 5)
--l, --long-break  Set the long break duration in minutes after four Pomodoros (default: 15)
---help             Show this help message and exit.
---version          Show program's version number and exit.
+- -w, --work       Set the work duration in minutes (default: 25)
+- -s, --short-break  Set the short break duration in minutes (default: 5)
+- -l, --long-break  Set the long break duration in minutes after four Pomodoros (default: 15)
+- --help             Show this help message and exit.
+- --version          Show program's version number and exit.
 
 
 ## Features
