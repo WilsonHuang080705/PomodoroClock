@@ -43,7 +43,7 @@ async def main():
 
     while True:
         # 开始工作
-        print(f"INFO 欢迎使用番茄钟! \nINFO 你可以在https://github.com/WilsonHuang080705/PomodoroClock来查看更多.\n\nINFO 开始工作，时长 {args.w} 分钟。\nINFO 按下Ctrl+C(Command+C)以退出番茄钟")
+        print(f"INFO 欢迎使用番茄钟! \nINFO 你可以在https://github.com/WilsonHuang080705/PomodoroClock 来查看更多.\n\nINFO 开始工作，时长 {args.w} 分钟。\nINFO 按下Ctrl+C(Command+C)以退出番茄钟")
         start_time = datetime.datetime.now()
         remaining_time = args.w * 60
 
