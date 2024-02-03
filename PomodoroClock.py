@@ -21,9 +21,9 @@ async def main():
             """),
         epilog=textwrap.dedent("""\
             CORE COMMANDS
-            -w, --work       Set the work duration in minutes (default: 25)
-            -sb, --short-break  Set the short break duration in minutes (default: 5)
-            -lb, --long-break  Set the long break duration in minutes after four Pomodoros (default: 15)
+            --w, --work       Set the work duration in minutes (default: 25)
+            --sb, --short-break  Set the short break duration in minutes (default: 5)
+            --lb, --long-break  Set the long break duration in minutes after four Pomodoros (default: 15)
             --help             Show this help message and exit.
             --version          Show program's version number and exit.
             """),
