@@ -43,7 +43,7 @@ async def main():
 
     while True:
         # 开始工作
-        print(f"INFO 开始工作，时长 {args.w} 分钟。\n按下Ctrl+C(Command+C)以退出番茄钟")
+        print(f"INFO 开始工作，时长 {args.w} 分钟。\nINFO 按下Ctrl+C(Command+C)以退出番茄钟")
         start_time = datetime.datetime.now()
         remaining_time = args.w * 60
 
@@ -51,17 +51,17 @@ async def main():
 
         await countdown_task
 
-        print("\nINFO 工作完成了, 休息一下吧！\n按下Ctrl+C或Command+C以退出番茄钟")
+        print("\nINFO 工作完成了, 休息一下吧！\nINFO 按下Ctrl+C或Command+C以退出番茄钟")
 
         if pomodoros_completed % 4 == 0:
-            print(f"INFO 4轮番茄钟已经过去, 进行长休息吧！时长 {args.lb} 分钟。按下Ctrl+C或Command+C以退出番茄钟")
+            print(f"INFO 4轮番茄钟已经过去, 进行长休息吧！时长 {args.lb} 分钟。INFO 按下Ctrl+C或Command+C以退出番茄钟")
             long_break_messages = ["面朝大海，春暖花开。", "想要的都拥有，得不到的都释怀。", "明月松间照，清泉石上流", "日出江花红胜火，春来江水绿如蓝。"]
             random_message = random.choice(long_break_messages)
             print(random_message)
-            long_break_task = asyncio.create_task(countdown("长休息剩余时间:", args.lb * 60))
+            long_break_task = asyncio.create_task(countdown("INFO 长休息剩余时间:", args.lb * 60))
             await long_break_task
         else:
-            short_break_task = asyncio.create_task(countdown("剩余时间:", args.sb * 60))
+            short_break_task = asyncio.create_task(countdown("INFO 剩余时间:", args.sb * 60))
             await short_break_task
 
         pomodoros_completed += 1
