@@ -44,7 +44,7 @@ Telegram: https://t.me/MatrixHuangShare
 
 ---
 # English ver. for I18N
-#＃ Pomodoro Clock
+## Pomodoro Clock
 
 ## Introduction
 Pomodoro Clock is a time management tool based on the Pomodoro Technique, developed by Matrix Huang. This tool aims to help users improve work efficiency and focus by setting cycles of work and rest.
