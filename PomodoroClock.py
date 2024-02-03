@@ -42,7 +42,7 @@ def main():
 
     while True:
         # 开始工作
-        print(f"开始工作，时长 {args.w} 分钟。")
+        print(f"INFO 开始工作，时长 {args.w} 分钟。\n按下Ctrl+C(Command+C)以退出番茄钟")
         start_time = datetime.datetime.now()
         remaining_time = args.w * 60  # 将工作时长转换为秒
 
@@ -61,7 +61,7 @@ def main():
             time.sleep(1)
 
         # 工作完成，休息
-        print("\n工作完成了, 休息一下吧！")
+        print("\nINFO 工作完成了, 休息一下吧！\n按下Ctrl+C(Command+C)以退出番茄钟")
         time.sleep(args.short_break * 60)
 
         # 更新番茄钟轮数
@@ -69,16 +69,16 @@ def main():
 
         # 检查是否需要长休息
         if pomodoros_completed % 4 == 0:
-            print(f"4轮番茄钟已经过去, 进行长休息吧！时长 {args.long_break} 分钟。")
+            print(f"INFO 4轮番茄钟已经过去, 进行长休息吧！时长 {args.long_break} 分钟。按下Ctrl+C或Command+C以退出番茄钟")
             long_break_messages = ["面朝大海，春暖花开。", "想要的都拥有，得不到的都释怀。", "明月松间照，清泉石上流", "日出江花红胜火，春来江水绿如蓝。"]
             random_message = random.choice(long_break_messages)
             print(random_message)
             time.sleep(args.long_break * 60)
         else:
-            print("继续下一个番茄钟。")
+            print("INFO 继续下一个番茄钟。")
 
 def signal_handler(signal, frame):
-    print("\n收到中断信号, 程序将退出。")
+    print("\nINFO 收到中断信号, 程序将退出。")
     sys.exit(0)
 
 if __name__ == "__main__":
