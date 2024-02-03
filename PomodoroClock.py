@@ -47,7 +47,7 @@ async def main():
         start_time = datetime.datetime.now()
         remaining_time = args.w * 60
 
-        countdown_task = asyncio.create_task(countdown("INFO 剩余时间:", remaining_time))
+        countdown_task = asyncio.create_task(countdown("剩余时间:", remaining_time))
 
         await countdown_task
 
