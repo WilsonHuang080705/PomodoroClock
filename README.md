@@ -14,7 +14,8 @@ Python PomodoroClock.py
 ```
 3. 通过命令行参数自定义工作时长、短休息时长和长休息时长。
 ```
-Python PomodoroClock.py --w 25 --sb 5 --lb 15 
+Python PomodoroClock.py --w 25 --sb 5 --lb 15
+```
 
 ## 命令行参数
 
