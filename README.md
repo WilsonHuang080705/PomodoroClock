@@ -3,7 +3,7 @@
 ## 简介
 Pomodoro Clock 是一个基于番茄工作法的时间管理工具，由 Matrix Huang 开发。该工具旨在帮助用户通过设定工作和休息的周期来提高工作效率和专注度。
 
-## 使用说明
+## 使用说明（示例）
 1. 克隆或下载本仓库到本地。
 ```
 git clone https://github.com/WilsonHuang080705/PomodoroClock
@@ -13,6 +13,8 @@ git clone https://github.com/WilsonHuang080705/PomodoroClock
 Python PomodoroClock.py
 ```
 3. 通过命令行参数自定义工作时长、短休息时长和长休息时长。
+```
+Python PomodoroClock.py --w 25 --sb 5 --lb 15 
 
 ## 命令行参数
 
