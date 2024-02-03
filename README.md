@@ -5,7 +5,13 @@ Pomodoro Clock 是一个基于番茄工作法的时间管理工具，由 Matrix 
 
 ## 使用说明
 1. 克隆或下载本仓库到本地。
-2. 使用 Python 运行 `PomodoroClock.py` 文件。
+```
+git clone https://github.com/WilsonHuang080705/PomodoroClock
+```
+2. 使用 Python 运行 `PomodoroClock.py` 文件
+```
+Python PomodoroClock.py
+```
 3. 通过命令行参数自定义工作时长、短休息时长和长休息时长。
 
 ## 命令行参数
