@@ -30,6 +30,8 @@ Matrix Huang
 
 ## 联系
 如果你有任何问题或建议，欢迎通过 GitHub Issues 与我联系。
+Mail: mailto:15080083554@163.com
+Telegram: https://t.me/MatrixHuangShare
 
 ---
 ## English ver. for I18N
@@ -65,3 +67,5 @@ Matrix Huang
 
 ## Contact
 If you have any questions or suggestions, feel free to contact me through GitHub Issues.
+Mail: mailto:15080083554@163.com
+Telegram: https://t.me/MatrixHuangShare
