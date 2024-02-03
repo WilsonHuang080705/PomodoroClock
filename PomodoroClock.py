@@ -51,8 +51,10 @@ async def main():
 
         await countdown_task
 
+        #休息
         print("\nINFO 工作完成了, 休息一下吧！\nINFO 按下Ctrl+C或Command+C以退出番茄钟")
-
+        pomodoros_completed += 1
+        
         if pomodoros_completed % 4 == 0:
             print(f"INFO 4轮番茄钟已经过去, 进行长休息吧！时长 {args.lb} 分钟。INFO 按下Ctrl+C或Command+C以退出番茄钟")
             long_break_messages = ["面朝大海，春暖花开。", "想要的都拥有，得不到的都释怀。", "明月松间照，清泉石上流", "日出江花红胜火，春来江水绿如蓝。"]
@@ -64,7 +66,7 @@ async def main():
             short_break_task = asyncio.create_task(countdown("INFO 剩余时间:", args.sb * 60))
             await short_break_task
 
-        pomodoros_completed += 1
+        
 
 async def countdown(prefix, seconds):
     end_time = datetime.datetime.now() + datetime.timedelta(seconds=seconds)
