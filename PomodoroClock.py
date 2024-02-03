@@ -17,7 +17,7 @@ async def main():
     # 休息时长，工作时长
     parser = argparse.ArgumentParser(
         description=textwrap.dedent("""\
-            The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. ...
+            The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. To use the Pomodoro method, choose a task to be completed, set the Pomodoro time to 25 minutes, focus on the work, not allowed to do anything unrelated to the task until the Pomodoro clock rings, and then tick on the paper to take a short break (5 minutes will do), and every four Pomodoro are completed to take a break for a little longer。
             """),
         epilog=textwrap.dedent("""\
             CORE COMMANDS
