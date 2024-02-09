@@ -6,7 +6,7 @@ Pomodoro Clock 是一个基于番茄工作法的时间管理工具，由 Matrix 
 ## 使用说明（示例）
 1. 克隆或下载本仓库到本地。
 ```
-git clone https://github.com/WilsonHuang080705/PomodoroClock
+git clone https://github.com/WilsonHuang080705/PomodoroClock.git
 ```
 2. 使用 Python 运行 `PomodoroClock.py` 文件
 ```
