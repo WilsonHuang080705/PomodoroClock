@@ -52,7 +52,7 @@ Pomodoro Clock is a time management tool based on the Pomodoro Technique, develo
 ## Usage
 1. Clone or download this repository to your local machine.
 ```
-git clone https://github.com/WilsonHuang080705/PomodoroClock
+git clone https://github.com/WilsonHuang080705/PomodoroClock.git
 ```
 2. Run the `PomodoroClock.py` file with Python.
 ```
