@@ -1,5 +1,5 @@
 # 观前须知😁
-- Want to see the English version for introduction of GUI? You can check it here[English]()
+- Want to see the English version for introduction of GUI? You can check it here [English]()
 - 如果想要参阅用户界面的番茄钟，请参阅[GUI For Chinese]()
 # Pomodoro Clock
 
