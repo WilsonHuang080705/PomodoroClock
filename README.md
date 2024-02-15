@@ -1,6 +1,6 @@
 # 观前须知😁
-Want to see the English version for introduction of GUI? You can check it here[English]()
-如果想要参阅用户界面的番茄钟，请参阅[GUI For Chinese]()
+Want to see the English version for introduction of GUI? You can check it here[GUI For English](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_GUI_en_US.md)
+如果想要参阅带有用户界面的番茄钟，请参阅[GUI For Chinese](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_GUI_zh_CN.md)
 # Pomodoro Clock
 
 ## 简介
@@ -13,13 +13,21 @@ git clone https://github.com/WilsonHuang080705/PomodoroClock.git
 ```
 2. 使用 Python 运行 `PomodoroClock.py` 文件
 ```
-Python PomodoroGUI.py
+Python PomodoroClock.py
 ```
 3. 通过命令行参数自定义工作时长、短休息时长和长休息时长。
 ```
 Python PomodoroClock.py --w 25 --sb 5 --lb 15
 ```
-如果没有安装Python语言，你也可以点击PomodoroClockGUI-win-x86的文件夹，再点击PomodoroGUI.exe来运行程序。
+如果没有安装Python语言，你也可以点击PomodoroClockGUI-win-x86的文件夹，再点击PomodoroClock.exe来运行程序。但请注意，.exe程序不能自定义工作时长，短休息时长和长休息时长。
+
+## 命令行参数
+
+- --w, --work          设置以分钟计的工作时长 (默认: 25分钟)
+- --sb, --short-break  设置以分钟计的短休息时长 (默认: 5分钟)
+- --lb, --long-break   设置以分钟计的长休息时长 (默认: 15分钟)
+- --help               显示帮助信息
+- --version            显示版本号
 
 ## 特点
 - 自定义工作和休息时长。

@@ -1,6 +1,6 @@
 # 观前须知😁
-Want to see the English version for introduction of CLI? You can check it here[CLI For English]()
-如果想要参阅带有命令行界面的番茄钟，请参阅[CLI For Chinese]()
+Want to see the English version for introduction of CLI? You can check it here[CLI For English](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_en_US.md)
+如果想要参阅带有命令行界面的番茄钟，请参阅[CLI For Chinese](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README.md)
 # Pomodoro Clock
 
 ## 简介
@@ -15,10 +15,8 @@ git clone https://github.com/WilsonHuang080705/PomodoroClock.git
 ```
 Python PomodoroGUI.py
 ```
-3. 通过命令行参数自定义工作时长、短休息时长和长休息时长。
-```
-Python PomodoroClock.py --w 25 --sb 5 --lb 15
-```
+3. 通过填入程序的表格来自定义工作时长、短休息时长和长休息时长。
+
 如果没有安装Python语言，你也可以点击PomodoroClockGUI-win-x86的文件夹，再点击PomodoroGUI.exe来运行程序。
 
 ## 特点
