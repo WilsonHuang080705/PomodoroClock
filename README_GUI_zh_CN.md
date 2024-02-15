@@ -1,6 +1,6 @@
 # 观前须知😁
-Want to see the English version for introduction of CLI? You can check it here[CLI For English](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_en_US.md)
-如果想要参阅带有命令行界面的番茄钟，请参阅[CLI For Chinese](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README.md)
+- Want to see the English version for introduction of PomodoroCLI? You can check it here [CLI For English](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_en_US.md)
+- 如果想要参阅带有命令行界面的番茄钟，请参阅[CLI For Chinese](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README.md)
 # Pomodoro Clock
 
 ## 简介
