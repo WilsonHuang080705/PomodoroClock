@@ -1,4 +1,4 @@
-# Before Reading
+# Before Reading😁
 - If you want to check the guide of the GUI version of PomodoroClock, please click here:[GUI For English](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_GUI_en_US.md)
 - 如果想要查阅带有用户界面的番茄钟的中文指南，请参阅[GUI For Chinese](https://github.com/WilsonHuang080705/PomodoroClock/blob/main/README_GUI_zh_CN.md)
 
