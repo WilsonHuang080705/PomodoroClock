@@ -19,7 +19,7 @@ Python PomodoroClock.py
 ```
 Python PomodoroClock.py --w 25 --sb 5 --lb 15
 ```
-如果没有安装Python语言，你也可以点击PomodoroClockGUI-win-x86的文件夹，再点击PomodoroClock.exe来运行程序。但请注意，.exe程序不能自定义工作时长，短休息时长和长休息时长。
+如果没有安装Python语言，你也可以点击PomodoroClock-win-x86的文件夹，再点击PomodoroClock.exe来运行程序。但请注意，.exe程序不能自定义工作时长，短休息时长和长休息时长。
 
 ## 命令行参数
 
