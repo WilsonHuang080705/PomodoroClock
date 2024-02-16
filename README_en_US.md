@@ -7,6 +7,9 @@
 ## Introduction
 Pomodoro Clock is a time management tool based on the Pomodoro Technique, developed by Matrix Huang. This tool aims to help users improve work efficiency and focus by setting cycles of work and rest.
 
+## Running Environment
+- Python 3.7.x or above
+
 ## Usage
 1. Clone or download this repository to your local machine.
 ```
